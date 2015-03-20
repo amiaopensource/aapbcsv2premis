@@ -1,0 +1,66 @@
+structure csv2xml {
+    type separated ,
+    output xml
+    record onelinecsv {
+        field col01
+        field col02
+        field col03
+        field col04
+        field col05
+        field col06
+        field col07
+        field col08
+        field col09
+        field col10
+        field col11
+        field col12
+        field col13
+        field col14
+        field col15
+        field col16
+        field col17
+        field col18
+        field col19
+        field col20
+        field col21
+        field col22
+        field col23
+        field col24
+        field col25
+        field col26
+        field col27
+        field col28
+        field col29
+        field col30
+        field col31
+        field col32
+        field col33
+        field col34
+        field col35
+        field col36
+        field col37
+        field col38
+        field col39
+        field col40
+        field col41
+        field col42
+        field col43
+        field col44
+        field col45
+        field col46
+        field col47
+        field col48
+        field col49
+        field col50
+        field col51
+        field col52
+    }
+}
+
+output xml {
+    file_header "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+    data "<%n>%t</%n>\n"
+    record_header "<%r>\n"
+    record_trailer "</%r>\n"
+    indent "   "
+}
